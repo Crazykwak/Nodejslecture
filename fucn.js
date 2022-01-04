@@ -1,4 +1,4 @@
-const {odd, even} = require('./modules/module');
+import {odd, even} from './modules/module';
 
 const checkOddEven = (number) =>{
     if(number % 2){
